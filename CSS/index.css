@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    /* background-image: url('https://png.pngtree.com/background/20250524/original/pngtree-vibrant-abstract-paint-swirls-in-a-rainbow-of-colors-picture-image_15967066.jpg');  */
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20230418/pngtree-fluid-gradient-colorful-background-image_2414986.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    backdrop-filter: blur(80px);
+    padding-bottom: 80px;
+    margin: 0;
+}
+.container{
+    width:1320px;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 16px;
+}
+.mt-0{
+    margin-top:0;
+}
+.pb-0{
+    padding-bottom: 0;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.col-3{
+    width: 25%;
+    padding:0 16px;
+}
+.col-4{
+    width:33.33%;
+    padding:0 16px;
+}
+.justify-contant-start{
+    justify-content: center;
+}
+.justify-contant-center{
+    justify-content: center;
+}
+.justify-contant-end{
+    justify-content: center;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 100%;
+    height:470px;
+    background-color: rgba(255, 255, 255,0.4);
+    backdrop-filter: blur(30px);
+    border: solid rgba(0, 0, 0,0.7) 2px;
+    border-radius: 20px;
+    padding:15px;
+    margin-top: 80px;
+    text-wrap: wrap;
+}
+.posi-rltv{
+    position: relative;
+    top:0;
+    left:0;
+}
+.image{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center;
+    border-radius: 20px;
+    border: solid rgba(0, 0, 0,0.7) 2px;
+}
+.image:hover img{
+    transform: scale(1.1);
+}
+.card-body{
+    width: 100%;
+}
+img{
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
